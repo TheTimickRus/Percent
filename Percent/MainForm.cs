@@ -21,6 +21,7 @@ namespace Percent
             if (count != -1 && e.KeyChar == ',')
                 e.Handled = true;
         }
+
         private void EnterButton_Click(object sender, EventArgs e)
         {
             if (InpX.Text.Equals("") && InpY.Text.Equals(""))
